@@ -317,9 +317,19 @@ public class Java011 {
 //		1000이하의 정답지를 출력하는 프로그램을 만들어 보자.
 	
 		
-		
-
-
+//			public static boolean f369(int count) {
+//			//369 returnValue 박수안치면 true
+//			boolean isReturnFlag=true;
+//			
+//			while(count!=0) {
+//				if(count%10%3==0&&count%10!=0) {
+//					System.out.println("짝");
+//					isReturnFlag=false;
+//				}
+//				count=count/10;
+//			}
+//			return isReturnFlag;
+			
 
 		
 		
@@ -584,10 +594,45 @@ public class Java011 {
 //		(3)
 //		java.util.Scanner sca =
 //				new java.util.Scanner(System.in);
-		
-		
-		
-		
+//		
+//		int ran=0;
+//		int j=0;
+//		int v=0;
+//		
+//		
+//		List arr2= new ArrayList();
+//		System.out.println("숫자맞히기 게임");
+//		
+//		
+//		for(int i=1; i>0;) {
+//			if(i==1) {
+//				ran = (int)(Math.random()*100 +1);
+//				i++;
+//			}
+//			
+//			System.out.println("숫자입력:");
+//			System.out.println(ran);
+//			j=Integer.parseInt(sca.nextLine());
+//			if(j==ran) {
+//				v++;
+//				System.out.println("컴퓨터 :"+ran+"유저:"+j+"\n-정답!-\n총"+v+"회 도전끝에 맞추셨습니다.\n0.게임종료\n1.다시하기");
+//				i=Integer.parseInt(sca.nextLine());
+//				v=0;
+//				arr2.add(j);
+//			}else if(j>ran) {
+//				System.out.println("컴퓨터가 입력한 수보다 크다.");
+//				v++;
+//				
+//				
+//			}else if(j<ran) {
+//				System.out.println("컴퓨터가 입력한 수보다 작다.");
+//				v++;
+//			}
+//		}
+//		System.out.println("맞힌문제들:");
+//		for(int a=0; a<arr2.size();a++) {
+//			System.out.println(arr2.get(a));
+//		}
 		
 		
 		
@@ -626,21 +671,10 @@ public class Java011 {
 //		
 //	
 //	}
-//	public static boolean f369(int count) {
-//		//369 returnValue 박수안치면 true
-//		boolean isReturnFlag=true;
-//		
-//		while(count!=0) {
-//			if(count%10%3==0&&count%10!=0) {
-//				System.out.println("짝");
-//				isReturnFlag=false;
-//			}
-//			count=count/10;
-//		}
-//		return isReturnFlag;
+//
+	
+	
 		
-	
-	
 	
 	}	
 }
