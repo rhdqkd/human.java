@@ -3,8 +3,15 @@ package javaStartjung;
 public class Javast01 {
 
 	public static void main(String[] args) {
-		// 밀린문제
+		// 다시풀어야하는 문제
 		
+		//3,6,9
+		
+		
+		//달력
+
+		
+		//
 		
 
 	}
