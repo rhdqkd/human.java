@@ -51,9 +51,7 @@ public class Bank {
 					System.out.println("아이디>>");
 					id[listCount]=sc.nextLine();
 					System.out.println("pw>>");
-					pw[listCount]=sc.nextLine();
-					account[listCount]=0;
-					listCount++;
+					
 					break;
 				case 2:
 					System.out.println("삭제할 사용자 정보입력");
